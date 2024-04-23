@@ -1,0 +1,38 @@
+.body {
+  height: 100vh;
+  margin: 0;
+  background-image: url("../assets/bg.jpg");
+  background-size: 300px;
+  background-position: center;
+  background-repeat: inherit;
+}
+.link:hover {
+  color: #ccc;
+}
+.profile-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile {
+  height: 100vh;
+  margin: 0;
+  background-image: url("../assets/bg.jpg");
+  background-size: 300px;
+  background-position: center;
+  background-repeat: inherit;
+}
+.centerme {
+  display: flex;
+  justify-content: center;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}

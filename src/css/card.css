@@ -1,0 +1,83 @@
+/* Card Styles */
+.card {
+  background-color: #ffffff;
+  width: 80%;
+  margin: 0 auto 1em;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect for card links */
+.cardLink:hover {
+  color: #000000;
+}
+
+/* Table Styles */
+.card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.card th,
+.card td {
+  padding: 12px;
+  text-align: left;
+  border: none;
+}
+
+.column1 {
+  width: 70%;
+}
+
+.column2 {
+  width: 30%;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Button Styles */
+.button1,
+.button2 {
+  display: block;
+  width: 100%;
+  margin: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 4px;
+  font-size: 14px; /* Adjusted font size */
+}
+
+.button1 {
+  background-color: #5dff8e;
+  color: #333333;
+  background-image: url(../assets/plus-solid.svg);
+  background-repeat: no-repeat;
+  border: 1px solid #5dff8e;
+  padding: 5px 0;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.button2 {
+  background-color: #ff0000;
+  color: #333333;
+  padding: 5px 0;
+  margin: 0;
+  margin-bottom: 5px;
+  background-image: url(../assets/trash-solid.svg);
+  background-repeat: no-repeat;
+  border: 1px solid #ff0000;
+}
+
+.button1:hover {
+  border: 1px solid #4ac970;
+  background-color: #4ac970;
+}
+
+.button2:hover {
+  border: 1px solid #da0202;
+  background-color: #da0202;
+}

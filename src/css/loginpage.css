@@ -1,0 +1,65 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-image: url("../assets/bg.jpg");
+  background-size: 300px;
+  background-position: center;
+  background-repeat: inherit;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+.login-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px;
+  width: 100%;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 10px;
+  width: 45%;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  border: #000000;
+  border-radius: 1px;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.shrijan {
+  color: #ccc;
+  font-weight: bold;
+}
